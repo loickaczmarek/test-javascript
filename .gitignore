@@ -1,0 +1,29 @@
+node_modules/
+build/
+coverage/
+
+.env*
+!.env.ci
+!.env.example
+
+# Log files
+npm-debug.log*
+yarn-error.log*
+report-eslint.json
+
+# Editor directories and files
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+*.orig
+*.iml
+
+*.DS_Store
+
+.eslintcache
+.npmrc
+.nvmrc
+.idea

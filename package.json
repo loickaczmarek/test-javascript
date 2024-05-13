@@ -1,0 +1,21 @@
+{
+  "name": "application",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "yarn test:unit && yarn test:integration",
+    "test:unit": "jest --testRegex '\\.unit\\.'",
+    "test:integration": "jest --testRegex '\\.integration\\.'",
+    "test:cover": "jest --coverage",
+    "test:watch": "jest --watch --coverage"
+  },
+  "author": "Loïc Kaczmarek <loic.kaczmarek@octo.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0"
+  }
+}
